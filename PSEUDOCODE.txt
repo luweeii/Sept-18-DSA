@@ -1,0 +1,51 @@
+Temperature Converter Pseudocode
+
+START
+1. Welcomes the user and asks to enter 1 or to to choose what conversion they want or 3 if they want to exit.
+2. User inputs a number to choose
+	A. If user inputs 1, system displays Fahrenheit to Celsius converter and asks the user for the fahrenheit value they want to convert.
+	- System converts the inputted fahrenheit to celsius with the given formula (temp - 32) * 5/9.
+	- Display the converted value from fahrenheit to celsius
+	- Go back to the start where system welcomes and asks the user to choose.
+
+	B. If user inputs 2, system displays Celsius to Fahrenheit converter and asks the user for the celsius value they want to convert.
+	- System converts the inputted celsius to fahrenheit with the given formula (temp * 9/5) + 32.
+	- Display the converted value from celsius to fahrenheit.
+	- Go back to the start where system welcomes and asks the user to choose.
+
+	C. If user inputs 3, system displays a thank you message and close the program.
+
+3.  If user inputs any number other than 1, 2, or 3, system displays an error message and asks the user to input the correct choices.
+END
+
+Grading System Pseudocode
+
+START
+1. System welcomes the user to the grading system
+2. System asks the user to input a student's score
+3. User input score
+	A. If user inputs a number less than or equal to 59
+	- System displays the equivalent grade in Letter Form (F)
+
+	B. If user inputs a number greater than 60 and less than 65
+	- System dispalys the equivalent grade in Letter Form (E)
+
+	C. If user inputs a number greater than 66 and less than 71
+	- System dispalys the equivalent grade in Letter Form (D)
+
+	D. If user inputs a number greater than 72 and less than 77
+	- System dispalys the equivalent grade in Letter Form (C)
+
+	E. If user inputs a number greater than 78 and less than 83
+	- System dispalys the equivalent grade in Letter Form (B)
+
+	F. If user inputs a number greater than 84 and less than 89
+	- System dispalys the equivalent grade in Letter Form (B+)
+
+	G. If user inputs a number greater than 90 and less than 95
+	- System dispalys the equivalent grade in Letter Form (A)
+
+	H. If user inputs a number greater than 96 and less than 100
+	- System dispalys the equivalent grade in Letter Form (A+)
+4. If user inputs any number above 100, system displays an error message and asks to enter a valid score again.
+END
